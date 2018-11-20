@@ -1,6 +1,4 @@
-// todo vísa í rétta hluti með import
 
-// allar breytur hér eru aðeins sýnilegar innan þessa módúl
 
 let startButton; // takki sem byrjar leik
 let problem; // element sem heldur utan um verkefni, sjá index.html
