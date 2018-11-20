@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  /* stylelint-disable-line */
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 16px; }
+
+img {
+  /* stylelint-disable-line */
+  max-width: 100%; }
+
+h1 {
+  /* stylelint-disable-line */
+  margin: 20px 0;
+  text-align: center; }
+
+main {
+  /* stylelint-disable-line */
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-direction: column; }
+  @media (min-width: 500px) {
+    main {
+      flex-direction: row; } }
+
+.game {
+  padding: 20px;
+  flex: 2; }
+
+.text {
+  margin-bottom: 20px; }
+  .text__title {
+    font-size: 1.5rem; }
+  .text__content {
+    font-size: 1rem;
+    line-height: 1.5; }
+
+.button {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  padding: 10px 5px;
+  margin: 0;
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 1rem;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #ddd;
+  border: 0;
+  border-radius: 5px; }
+  .button--hidden {
+    display: none; }
+  .button--large {
+    max-width: 500px;
+    font-size: 2rem; }
+
+.problem__timer {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  font-weight: bold; }
+
+.problem__question {
+  margin-bottom: 20px;
+  font-size: 2rem; }
+
+.problem__input {
+  padding: 5px;
+  margin-bottom: 20px;
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 2rem; }
+
+.problem--hidden {
+  display: none; }
+
+.result--hidden {
+  display: none; }
+
+.result__text {
+  margin-bottom: 20px; }
+
+.result__form {
+  display: flex;
+  flex-direction: column; }
+
+.result__label {
+  font-size: 1rem; }
+
+.result__input {
+  padding: 5px;
+  margin-bottom: 20px;
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 2rem; }
+
+.highscore {
+  flex: 1;
+  padding: 20px; }
+  .highscore__title {
+    margin-bottom: 20px; }
+  .highscore__scores {
+    margin-bottom: 20px; }
+  .highscore__number {
+    display: inline-block;
+    margin-right: 10px; }
+  .highscore__name {
+    font-weight: bold; }
+  .highscore__button--hidden {
+    display: none; }
