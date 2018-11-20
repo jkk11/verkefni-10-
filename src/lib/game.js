@@ -21,10 +21,7 @@ function finish() {
 /**
  * Keyrir áfram leikinn. Telur niður eftir því hve langur leikur er og þegar
  * tími er búinn kallar í finish().
- *
- * Í staðinn fyrir að nota setInterval köllum við í setTimeout á sekúndu fresti.
- * Þurfum þá ekki að halda utan um id á intervali og skilum falli sem lokar
- * yfir fjölda sekúnda sem eftir er.
+
  *
  * @param {number} current Sekúndur eftir
  */
